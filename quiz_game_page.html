@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>MATH QUIZ GAME!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4><span id="player2_score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color:cyan;">THE MATH QUIZ GAME!</h2>
+            <h4 id="questionplayer">
+            </h4>
+            <h4 id="answerplayer">
+            </h4>
+            <div id="output"></div> 
+            <div id="inputsdiv">  
+            <h4 style="color:cyan;
+            background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-blue-ink-large-size-background-image_124631.jpg);"> Number 1</h4><br>
+            <input id="number1" type="text"   placeholder="Enter number">  <br> <br>
+            <h4 style="color:cyan;
+            background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-blue-ink-large-size-background-image_124631.jpg);"> Number 2</h4>   <br>
+            <input id="number2" type="text" placeholder="Enter number"><br> <br> <br>
+            <button class="btn btn-info" id="sendbtn" onclick="send()">SEND NUMBERS</button>
+        </div>
+        </center>
+    </div>
+    <script src="quiz_game_page.js"></script>
+</body>
+
+</html>
